@@ -27,7 +27,7 @@ if (x!=5) {
 /* SCRIVI QUI LA TUA RISPOSTA */
 let numbfor= 20
 if (numbfor%5==0) {
-  console.loig("è divisibile per 5")
+  console.log("è divisibile per 5")
 } else {
   console.log("non è divisibile per 5")
 }
@@ -88,6 +88,7 @@ const numbercount =[16,22,3];
 numbercount.sort(function(a, b) {
   return a - b;
 });
+numbercount.reverse();
 
 console.log(numbercount);
 
