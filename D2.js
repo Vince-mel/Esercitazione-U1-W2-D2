@@ -26,7 +26,7 @@ if (x!=5) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 let numbfor= 20
-if (numbfor%5==1) {
+if (numbfor%5==0) {
   console.loig("è divisibile per 5")
 } else {
   console.log("non è divisibile per 5")
